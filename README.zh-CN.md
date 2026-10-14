@@ -1,5 +1,7 @@
 # pose-convention-bridge
 
+[English](README.md) · **简体中文**
+
 显式转换 OpenCV / OpenGL 和 w2c / c2w 位姿；TUM 使用 xyzw，COLMAP 使用 wxyz。不猜坐标轴、外参、单位或世界变换，不伪造图片名与内参；点云/网格需单独应用同一世界变换。
 
 由 **Afloat16** 独立维护，MIT 许可。实验性工具，格式与限制详见 [English README](README.md) 和[需求证据](docs/EVIDENCE.md)。未声称修复上游运行时问题或获得上游认可。
@@ -24,3 +26,8 @@ python -m build
 ```
 
 CI 配置覆盖三种系统的 Python 3.10 / 3.13，实际状态以 Actions 为准。示例均为合成数据，不包含用户附件或私人数据。
+
+
+## 相关项目
+
+按问题选择工具，查看[Afloat16项目导航](https://github.com/Afloat16/research-to-fix/blob/main/docs/PROJECTS.zh-CN.md)。
