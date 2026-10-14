@@ -1,0 +1,1 @@
+{"frames":[{"id":"camera-1","file_path":"image.png","matrix":[[1,0,0,1],[0,1,0,2],[0,0,1,3],[0,0,0,1]]}],"fl_x":500,"fl_y":500,"cx":320,"cy":240,"w":640,"h":480,"camera_model":"PINHOLE"}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pose-convention-bridge"
+version = "0.1.0"
+description = "Explicit rigid camera-pose conversion between OpenCV/OpenGL and world-to-camera/camera-to-world conventions."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Afloat16"}]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Afloat16/pose-convention-bridge"
+Issues = "https://github.com/Afloat16/pose-convention-bridge/issues"
+
+[project.optional-dependencies]
+dev = ["build>=1.2"]
+
+[project.scripts]
+pose-convention-bridge = "pose_convention_bridge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
